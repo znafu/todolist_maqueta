@@ -75,6 +75,20 @@ body {
 }
 
 .form-signin input[type="password"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.form-signin input[type="confirm"] {
     margin-bottom: 10px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
